@@ -143,7 +143,7 @@ Edit the main.lua
 ``` cursorImage = love.graphics.newImage("left_ptr.png")```
 
  2. Hide the system cursor in the love.load() function: 
- 3. 
+  
 ```love.mouse.setVisible(false) ```
 
 3. Draw the custom cursor image in a new drawCursor function and call it at the end of the love.draw() function:
